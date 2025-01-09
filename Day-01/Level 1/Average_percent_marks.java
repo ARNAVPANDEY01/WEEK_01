@@ -1,7 +1,7 @@
 //Sam's mark in Maths is 94, Physics is 95 and Chemistry is 96 out of 100. Find the average percent mark in PCM.
 
 //Create class with name Prog_2 indicating the purpose is to display result.
-class Prog_2{
+class Average_percent_marks{
    public static void main(String[] args){
    
    //Create a int variable Maths and assign value 94

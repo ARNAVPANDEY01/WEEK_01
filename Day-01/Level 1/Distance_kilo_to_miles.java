@@ -1,7 +1,7 @@
 //create a program to convert the distance of 10.8 kilometers to miles.
 
 //Create Prog_3 class to compute the Distance in Kilometers to miles
-class Prog_3{
+class Distance_kilo_to_miles{
    public static void main(String[] args){
    
    //Create a double variable dis and assign value 10.8
