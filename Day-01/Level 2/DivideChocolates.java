@@ -6,8 +6,9 @@ class DivideChocolates {
 
 		// Creating an instance of Scanner class to take user input
 		Scanner sc = new Scanner(System.in);
+
 		
-        // Create variable to take user input for numberOfchocolates 
+        // Create variable to take user input for numberOfchocolates
         int numberOfchocolates = sc.nextInt();
 
         // Create a variable to take user input for numberOfChildren

@@ -13,15 +13,22 @@
 				
 				//Create an instance of Scanner class to take user inputs
 				Scanner sc = new Scanner(System.in);
+
 				
 				//Create an variable named a and take input from user
+				System.out.println("Enter a is:");
 				int a = sc.nextInt();
+
 				
 				//Create another variable named b and take input from user
+				System.out.println("Enter b is:");
 				int b = sc.nextInt();
+
 				
 				//Create another variable named c and take input from user
+				System.out.println("Enter c is:");
 				int c = sc.nextInt();
+				
 				
 				//Create an variable named operation1 to store the value of first operation
 				int operation1 = a + b *c;

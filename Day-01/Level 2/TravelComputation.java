@@ -12,9 +12,11 @@ class TravelComputation {
         // from city, via city and to city the person is travelling
         String fromCity = sc.nextLine(), viaCity = sc.nextLine() , toCity = sc.nextLine();
 
+
         // Create a variable to take user input for distanceFromToVia to indicate the distance 
 		// between the fromCity to viaCity
         double distanceFromToVia = sc.nextDouble();
+        
 
 		// Create a variable to take user input for hoursFromToVia taken
 		int hoursFromToVia = sc.nextInt();

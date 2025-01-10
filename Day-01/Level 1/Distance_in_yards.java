@@ -1,28 +1,30 @@
 //Create a program to find distance in yards
-//Create a class with name Distance
+//Create a class with name DistanceinYards
 import java.util.Scanner;
 
-    class Distance{
+    class DistanceinYards{
 	    public static void main(String[]args){
 		    
 			
 			//Create an instance of Scanner class to user input
 			Scanner input = new Scanner(System.in);
+
 			
-			//Create an integer variable feet to take user input 
-			int feet = input.nextInt();
+			//Create an integer variable distanceInFeet to take user input
+			System.out.println("Enter distance in feet:"); 
+			int distanceInFeet = input.nextInt();
 			
 			
 			//Create an integer variable yard to find its value 
-			int yard = feet / 3;
+			int distanceinyard = distanceInFeet / 3;
 			
 			
 			//Create an integer variable mile to find its value 
-			int mile = yard/1760;
+			int mile = distanceinyard/1760;
 			
 			
 			//Create a double variable centimeter to find its value 
-			double centimeter = feet * 30.48;
+			double centimeter = distanceInFeet * 30.48;
 			
 			
 			//Create a double variable modulo to find its value 
@@ -30,11 +32,11 @@ import java.util.Scanner;
 			
 			
 			//Create a double variable inches to find its value 
-			double inches = 12 * modulo;
+			double distanceininches = 12 * modulo;
 			
 			
 			//Display the result
-			System.out.println("Height in cm is:" + centimeter + "while in feet is:" + feet + "inches is:" + inches);
+			System.out.println("Your height in cm is:" + centimeter + "while in feet is:" + distanceInFeet + "inches is:" + distanceininches);
 		}
 	}
 		

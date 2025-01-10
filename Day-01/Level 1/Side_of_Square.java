@@ -1,14 +1,17 @@
 //Create a program to calculate perimeter of square
-//Create a class with name Prog13
 import java.util.Scanner;
-    class Perimeter{
+
+//Create a class with name SideofSquare
+    class SideofSquare{
 	    public static void main(String[]args){
 		    
 			//Create an instance of Scanner class to user input
 			Scanner input = new Scanner(System.in);
 			
 			
+
 			//Creat a double variable name side to take user input
+			System.out.println("Enter side of square:");
 			double side = input.nextInt();
 			
 			
@@ -21,6 +24,6 @@ import java.util.Scanner;
 			
 			
 			//Display the value
-			System.out.println("The length of side is:" + side + "whose perimeter is:" + perimeter + "And area of square is:" + area);
+			System.out.println("The length of side is:" + side + "whose perimeter is:" + perimeter);
 		}
 	}

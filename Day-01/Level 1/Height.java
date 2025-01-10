@@ -1,5 +1,5 @@
 //Create a program to calculate height in feet and inches
-//Create a Class with Prog10
+//Create a Class with Height
 
 import java.util.Scanner;
 class Height{
@@ -9,6 +9,7 @@ class Height{
 	    Scanner input = new Scanner(System.in);
 		
 		//Create an integer variable centimeters and assign value from user
+		System.out.println("Enter your height in centimeters:");
 		int centimeters = input.nextInt();
 		
 		//Create an double variable height to calculate in feet
@@ -21,6 +22,6 @@ class Height{
 		double inches = 12 * modulo;
 		
 		//Display the height
-		System.out.println("Height in Feet is" + feet + "Height in inches is:" + inches);
+		System.out.println("Your height in centimeters is:" + centimeters + "while in Feet is" + feet + "and inches is:" + inches);
 	}
 }

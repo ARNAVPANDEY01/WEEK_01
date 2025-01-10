@@ -15,9 +15,12 @@
             
 			//Create an instance of Scanner class to take user inputs
 			Scanner sc =new Scanner(System.in);
+
 			
 			//Create an variable named fahrenheit  and take input from user
+			System.out.println("Enter temperature in fahrenheit is:");
 			int fahrenheit  = sc.nextInt();
+			
 			
 			 
 			//Create an variable named fahrenheitResult to store the result

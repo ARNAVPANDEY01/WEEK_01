@@ -14,12 +14,17 @@
             
 			//Create an instance of Scanner class to take user inputs
 			Scanner sc =new Scanner(System.in);
+
 			
 			//Create an variable named salary  and take input from user
+			System.out.println("Enter salary:");
 			int salary  = sc.nextInt();
+
 			
 			//Create an variable named bonus  and take input from user
+			System.out.println("Enter bonus:");
 			int bonus  = sc.nextInt();
+			
 			
 			 
 			//Create an variable named totalIncome to store the result

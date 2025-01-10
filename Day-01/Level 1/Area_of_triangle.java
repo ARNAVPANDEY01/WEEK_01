@@ -1,20 +1,26 @@
 //Create a program to calculate area of triangle
-//Create a class with name Prog12
 import java.util.Scanner;
 
-    class Area{
+//Create a class with name AreaofTriangle
+
+    class AreaofTriangle{
 	    public static void main(String[]args){
 		    
 			
 			//Create an instance of Scanner class to user input
 			Scanner input = new Scanner(System.in);
+
 			
 			//Create an integer variable name base to take user input
+			System.out.println("Enter base of triangle is:");
 			int base = input.nextInt();
+
 			
 			
 			//Create an integer variable name height to take user input
+			System.out.println("Enter height of triangle is:");
 			int height = input.nextInt();
+
 			
 			
 			//Create an double variable name feet to calculate value
@@ -29,9 +35,8 @@ import java.util.Scanner;
 			double sqinches = (area*0.155);
 			
 			
-			//Display the area of triangle
-			System.out.println("Area of triangle is:" + area);
-			System.out.println("Height in cm is:" + height + "in feet is:" + feet + "inches is:" + sqinches);
+			//Display the result
+			System.out.println("Your height in cm is:" + height + "while in feet is:" + feet + "inches is:" + sqinches);
 			
 			
 			

@@ -6,11 +6,15 @@ class SwapTwoNumbers {
 	
 		// Creating an instance of Scanner class to take user input
 		Scanner sc = new Scanner(System.in);
+
 		
 		// Create a variable number1 and take user input
+		System.out.println("Enter number 1:");
 		int number1 = sc.nextInt();
+
 		
 		// Create a variable number2 and take user input
+		System.out.println("Enter number 2:");
 		int number2 = sc.nextInt();
 		
 		// Swapping the values of number1 & number2

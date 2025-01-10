@@ -10,8 +10,8 @@ class NumberOfRounds {
         // Create variables to take user input for side1, side2 and side3
         int side1 = sc.nextInt(), side2 = sc.nextInt(), side3 = sc.nextInt();
 
-        // Create a variable to take user input to cover the distance by athlete
-		int distance = sc.nextInt();
+        // Create a variable distance and assign in meter
+		int distance = 5000;
 
 		// Formula to find the perimeter of a triangle
 		int perimeter = side1 + side2 + side3;

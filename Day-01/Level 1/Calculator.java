@@ -1,19 +1,26 @@
 //Create a program to make basic calculator
-//Create a class with name Prog11
 import java.util.Scanner;
+
+//Create a class name Calculator
     class Calculator{
         public static void main(String[] args) {
             
 			//Create an instance of Scanner class to user input
 			Scanner input = new Scanner(System.in);
+
 			
 			//Create an integer variable name number1 to take user input
+            System.out.println("Enter number 1:");
             int number1 = input.nextInt();
+
 			
 			//Create an integer variable name number2 to take user input
+            System.out.println("Enter number 2:");
             int number2 = input.nextInt();
+
 			
 			//Create an integer variable name choice
+            System.out.println("Enter choice");
             int choice = input.nextInt();
 			
 			//Using Switch for checking operation given by user input

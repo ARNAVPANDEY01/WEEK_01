@@ -13,12 +13,17 @@
             
 			//Create an instance of Scanner class to take user inputs
 			Scanner sc =new Scanner(System.in);
+
 			
 			//Create an variable named number1 and take input from user
+			System.out.println("Enter number 1 is:");
 			int number1 = sc.nextInt();
+
 			
 			//Create another variable named number2 and take input from user
+			System.out.println("Enter number 2 is:");
 			int number2 = sc.nextInt();
+			
 			
 			//Create an variable named quotient to store the value of quotient
 			int quotient = number1/number2;
