@@ -1,5 +1,5 @@
 //Write a multi-dimensional array into single dimensional array
-//Create a class name 3DTo2DConversion
+//Create a class name Conversion
 
 //Import the required class for the program
 import java.util.Scanner;
